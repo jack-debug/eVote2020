@@ -1,0 +1,21 @@
+﻿<Window x:Class="eVote2020.verifyVoter"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:eVote2020"
+        mc:Ignorable="d"
+        Title="verifyVoter" Height="363.079" Width="487.626">
+    <Grid>
+        <Image HorizontalAlignment="Left" Height="197" VerticalAlignment="Top" Width="787" Source="fla.png" Margin="0,0,-307,0"/>
+        <Label Content="Verify Yourself" HorizontalAlignment="Left" Height="92" Margin="255,10,0,0" VerticalAlignment="Top" Width="215" FontSize="30" FontFamily="Javanese Text" FontWeight="Bold"/>
+        <Label Content="Name" HorizontalAlignment="Left" Height="45" Margin="21,152,0,0" VerticalAlignment="Top" Width="92" FontSize="20"/>
+        <TextBox x:Name="name" HorizontalAlignment="Left" Height="21" Margin="21,188,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="107"/>
+        <Label Content="State" HorizontalAlignment="Left" Height="45" Margin="163,152,0,0" VerticalAlignment="Top" Width="92" FontSize="20"/>
+        <TextBox HorizontalAlignment="Left" Height="21" Margin="163,188,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="107"/>
+        <Label Content="Voter ID Number" HorizontalAlignment="Left" Height="45" Margin="298,152,0,0" VerticalAlignment="Top" Width="165" FontSize="20"/>
+        <TextBox HorizontalAlignment="Left" Height="21" Margin="305,188,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="107"/>
+        <Button Content="Verify" HorizontalAlignment="Left" Height="44" Margin="163,260,0,0" VerticalAlignment="Top" Width="168" FontFamily="Candara Light" FontSize="22" Click="Button_Click"/>
+
+    </Grid>
+</Window>
